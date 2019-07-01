@@ -1,11 +1,12 @@
 .nav__search {
 	width: 31px;
-	height: 31px;
+	height: 65px;
 	margin-left: 70.33px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	position: relative;
 	svg {
 		 fill: #7D7D7D;
 		transition: 0.5s;

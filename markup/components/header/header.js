@@ -4,6 +4,7 @@ $(document).ready(function() {
 	$('.pers').hide();
 	$('.menupopup').hide();
 	$('.basketpopup').hide();
+	$('.searchblock').hide();
 	$('.header__pers').click(function() {
 		$('.pers').slideToggle();
 	});
@@ -24,9 +25,17 @@ $(document).ready(function() {
 		e.preventDefault();
 		$('.basketpopup').slideToggle();
 	});
+	$('.nav__search-svg').click(function() {
+		$('.searchblock').slideToggle();
+	});
+	$('.searchblock__svg2').click(function() {
+		$('.searchblock').slideToggle();
+	});
 	$('body').on('click','.spisok__del',function(e) {
 		e.preventDefault();
 		$(this).parent().parent().parent().remove();
+		$('.basketpopup__oplata').html('Оплатить '+ sum +'₽');
+		$('.basketpopup__itog-sum').html(sum +'₽');
 	});
 	$('body').on('click','.spisok__minus', function(e) {
 		e.preventDefault();
