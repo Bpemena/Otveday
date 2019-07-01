@@ -1,0 +1,15 @@
+.nav__link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #7D7D7D;
+	text-decoration: none;
+	transition: 0.5s;
+	&:hover {
+		color: #009600;
+		font-weight: 500;
+
+	}
+}

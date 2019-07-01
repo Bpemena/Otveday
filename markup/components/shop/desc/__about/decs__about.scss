@@ -1,0 +1,14 @@
+.desc__about {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	svg {
+		fill: #8BBA95;
+		transition: 0.5s;
+	}
+	&:hover {
+		svg {
+			transform: translateX(10px);
+		}
+	}
+}

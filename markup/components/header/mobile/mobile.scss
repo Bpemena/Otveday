@@ -1,0 +1,41 @@
+.mobile {
+	display: none;
+	justify-content: space-between;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 40px;
+	align-items: center;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	z-index: 300;
+	border-bottom: 1px solid #7D7D7D;
+}
+.mobile__logo {
+	width: auto;
+	height: 100%;
+	img {
+		height: 100%;
+	}
+}
+.mobile__basket {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.mobile__basket-svg {
+		fill: #7D7D7D;
+	}
+}
+.mobile__pers {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.mobile__pers-svg {
+		fill: #7D7D7D;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.mobile {
+		display: flex;
+	}
+}

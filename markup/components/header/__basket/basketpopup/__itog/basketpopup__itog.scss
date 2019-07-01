@@ -1,0 +1,22 @@
+.basketpopup__itog {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	div:first-child {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 30px;
+		color: #646464;
+	}
+	div:last-child {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 30px;
+		color: #53B162;
+	}
+}

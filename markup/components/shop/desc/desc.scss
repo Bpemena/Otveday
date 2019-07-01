@@ -1,0 +1,46 @@
+.desc {
+	width: 466px;
+	height: 479px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Raleway';
+	margin-top: 62px;
+	z-index: 150;
+}
+@media only screen and (max-width: 1549px) {
+	.desc {
+		width: 100%;
+		height: auto;
+		.desc__title {
+			margin-bottom: 10px;
+		}
+		.desc__link {
+			margin-top: 10px;
+		}
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.desc {
+		width: 50%;
+		.desc__title {
+			margin-bottom: 0;
+		}
+		.desc__link {
+			margin-top: 0;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.desc {
+		order: -2;
+		width: 100%;
+		margin-top: 20px;
+		.desc__title {
+			margin-bottom: 10px;
+		}
+		.desc__link {
+			margin-top: 10px;
+		}
+	}
+}

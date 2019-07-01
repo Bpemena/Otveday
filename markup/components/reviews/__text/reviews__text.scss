@@ -1,0 +1,16 @@
+.reviews__text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #646464;
+	margin-top: 32px;
+	margin-bottom: 62px;
+}
+@media only screen and (max-width: 1599px) {
+	.reviews__text {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

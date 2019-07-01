@@ -1,0 +1,21 @@
+.nav__column {
+	&:first-child {
+		display: flex;
+		align-items: center;
+		&:hover {
+			svg {
+				fill: #009600;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1439px) {
+	.nav__column {
+		margin: 0 20px;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	.nav__column {
+		margin: 0 10px;
+	}
+}

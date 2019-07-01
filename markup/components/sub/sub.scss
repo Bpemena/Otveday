@@ -1,0 +1,10 @@
+.sub {
+	display: flex;
+	margin-bottom: 149px;
+}
+@media only screen and (max-width: 1365px) {
+	.sub {
+		flex-direction: column;
+		justify-content: center;
+	}
+}

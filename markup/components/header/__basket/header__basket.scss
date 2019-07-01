@@ -1,0 +1,13 @@
+.header__basket {
+	margin-right: 14px;
+	cursor: pointer;
+	position: relative;
+	.header__basket-svg {
+		fill: #7D7D7D;
+	}
+	&:hover {
+		.header__basket-svg {
+			fill: #009600;
+		}
+	}
+}

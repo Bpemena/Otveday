@@ -1,0 +1,15 @@
+.item__link {
+	display: inline-block;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #56B66B;
+	margin-top: 7.39px;
+	margin-bottom: 45.28px;
+	position: relative;
+	&:hover {
+		text-decoration: none;
+	}
+}

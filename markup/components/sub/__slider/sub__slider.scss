@@ -1,0 +1,43 @@
+.sub__slider {
+	width: 1107px;
+	height: 366px;
+	padding-top: 49px;
+	padding-bottom: 50px;
+	background: #ffffff;
+	border-radius: 0 18px 18px 0;
+	box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.15);
+	position: relative;
+	overflow: hidden;
+}
+.sub__container {
+	height: 100%;
+	width: 100%;
+}
+.sub__slide {
+	width: auto;
+	height: 100%;
+	position: relative;
+	img {
+		height: 100%;
+	}
+}
+.sub__slidehover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(#53B162,0.3);
+	transition: 0.3s;
+	&:hover {
+		background-color: rgba(#53B162,0);
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.sub__slider {
+		width: 1000px;
+	}
+}
+@media only screen and (max-width: 1365px) {
+	.sub__slider {
+		width: 100%;
+	}
+}

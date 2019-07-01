@@ -1,0 +1,21 @@
+.review {
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 52px;
+	padding-bottom: 30px;
+	width: 607px;
+	min-height: 322px;
+	border-radius: 18px;
+	box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.15);
+}
+@media only screen and (max-width: 1599px) {
+	.review {
+		width: 100%;
+		min-height: auto;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.review {
+		padding: 10px;
+	}
+}

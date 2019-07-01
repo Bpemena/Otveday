@@ -1,0 +1,20 @@
+.message__column {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	&:nth-child(1){
+		width: 327px;
+	}
+	&:nth-child(2){
+		width: 388px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.message__column {
+		&:nth-child(1),
+		&:nth-child(2) {
+			width: 100%;
+		}		
+	}
+}

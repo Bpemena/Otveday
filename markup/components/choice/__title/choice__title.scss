@@ -1,0 +1,26 @@
+.choice__title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+	color: #424242;
+	width: 270px;
+	margin-bottom: 78px;
+}
+@media only screen and (max-width: 1919px) {
+	.choice__title {
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	.choice__title {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.choice__title {
+		font-size: 30px;
+		width: 100%;
+	}
+}

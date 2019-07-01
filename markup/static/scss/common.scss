@@ -1,0 +1,31 @@
+// Common styles of the project
+* {
+	box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.container {
+	padding-left: 188px;
+	padding-right: 190px;
+}
+@media only screen and (max-width: 1919px) {
+	.container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

@@ -1,0 +1,72 @@
+.eda {
+	width: 331px;
+	transition: 0.4s;
+	&:hover {
+		width: 347px;
+		.eda__izo {
+			height: 228.54px;
+		}
+		.eda__info {
+			margin-top: 41.51px;
+		}
+		.eda__name {
+			font-size: 20px;
+			line-height: 25px
+		}
+		.eda__price {
+			margin-top: 17.82px;
+			margin-bottom: 25.16px;
+			font-size: 20px;
+			line-height: 25px;
+		}
+		.eda__link {
+			font-size: 16px;
+			line-height: 20px;
+		}
+		.eda__basket {
+			width: 65.3px;
+			height: 65.3px;
+			svg {
+				width: 28px;
+				height: 28px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.eda {
+		width: 320px;
+		&:hover {
+			width: 347px;
+		.eda__izo {
+			height: 218px;
+		}
+		.eda__info {
+			margin-top: 38px;
+		}
+		.eda__name {
+			font-size: 18px;
+			line-height: 22px
+		}
+		.eda__price {
+			margin-top: 16.55px;
+			margin-bottom: 24px;
+			font-size: 18px;
+			line-height: 22px;
+		}
+		.eda__link {
+			font-size: 15px;
+			line-height: 19px;
+		}
+		.eda__basket {
+			width: 62.29px;
+			height: 62.29px;
+			svg {
+				width: 26px;
+				height: 26px;
+			}
+		}
+		}
+	}
+}

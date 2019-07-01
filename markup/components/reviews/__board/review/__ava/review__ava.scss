@@ -1,0 +1,13 @@
+.review__ava {
+	width: 73px;
+	height: 73px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 18px;
+}
+@media only screen and (max-width: 479px) {
+	.review__ava {
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,21 @@
+.spisok__number {
+	width: 68px;
+	height: 31px;
+	background: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	border-radius: 38px;
+	outline: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #646464;
+	margin: 0 10px;
+	-moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

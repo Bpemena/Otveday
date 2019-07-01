@@ -1,0 +1,12 @@
+.eda__link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height:19px;
+	color: #56B66B;
+	transition: 0.4s;
+	&:hover {
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,11 @@
+.review__info {
+	display: flex;
+	margin-bottom: 32px;
+}
+@media only screen and (max-width: 480px) {
+	.review__info {
+		margin-bottom: 20px;
+		flex-direction: column;
+		text-align: center;
+	}
+}

@@ -1,0 +1,13 @@
+.cell__text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #3C6142;
+}
+@media only screen and (max-width: 1023px) {
+	.cell__text {
+		padding-left: 20px;
+	}
+}

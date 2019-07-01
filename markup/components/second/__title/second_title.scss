@@ -1,0 +1,23 @@
+.second__title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+	color: #424242;
+	width: 713px;
+}
+@media only screen and (max-width: 1023px) {
+	.second__title {
+		width: 100%;
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.second__title {
+		font-size: 30px;
+		line-height: 30px;
+	}
+}

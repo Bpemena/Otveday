@@ -1,0 +1,21 @@
+.spisok__name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #646464;
+}
+.spisok__kg {
+	margin-right: 10px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #505050;
+	white-space: nowrap;
+}

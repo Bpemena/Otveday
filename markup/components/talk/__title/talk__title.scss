@@ -1,0 +1,14 @@
+.talk__title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+	color: #398A46;
+}
+@media only screen and (max-width: 480px) {
+	.talk__title {
+		font-size: 30px;
+	}
+}

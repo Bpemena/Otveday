@@ -1,0 +1,17 @@
+.nav__menu {
+	cursor: pointer;
+	position: relative;
+	&:hover {
+		svg {
+			fill: #009600;
+		}
+	}
+	&:active {
+		svg {
+			fill: #009600;
+		}
+	}
+	svg {
+		fill: #7D7D7D;
+	}
+}

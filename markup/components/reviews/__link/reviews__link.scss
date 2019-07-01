@@ -1,0 +1,14 @@
+.reviews__link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #8BBA95;
+	text-decoration: none;
+	&:hover {
+		~.reviews__svg {
+			transform: translateX(10px);
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.menu__topline {
+	display: flex;
+	align-items: center;
+	margin-bottom: 80px;
+}
+@media only screen and (max-width: 1023px) {
+	.menu__topline {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.menu__topline {
+		flex-direction: column;
+		justify-content: center;
+	}
+}

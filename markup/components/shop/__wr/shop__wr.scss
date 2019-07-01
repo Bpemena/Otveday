@@ -1,0 +1,16 @@
+.shop__wr {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 206px;
+}
+@media only screen and (max-width: 1549px) {
+	.shop__wr {
+		padding-bottom: 130px;
+		flex-wrap: wrap;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.shop__wr {
+		padding-bottom: 20px;
+	}
+}

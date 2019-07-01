@@ -1,0 +1,21 @@
+.basketpopup {
+	position: absolute;
+	top: 50px;
+	right: -63px;
+	width: 504px;
+	background-color: #ffffff;
+	padding-right: 41px;
+	padding-top: 34px;
+	padding-bottom: 16px;
+	padding-left: 43px;
+	border-radius: 18px;
+	cursor: default;
+	&::before {
+		position: absolute;
+		content: '';
+		border: 13px solid transparent;
+		border-bottom: 20px solid #fff;
+		right: 63px;
+		top: -33px;
+	}
+}

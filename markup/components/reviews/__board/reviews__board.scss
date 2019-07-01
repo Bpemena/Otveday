@@ -1,0 +1,12 @@
+.reviews__board {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 68px;
+}
+@media only screen and (max-width: 1599px) {
+	.reviews__board {
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+	}
+}

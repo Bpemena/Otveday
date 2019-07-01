@@ -1,0 +1,15 @@
+.header__el {
+	margin-left: 52px;
+	display: flex;
+	align-items: center;
+}
+@media only screen and (max-width: 1919px) {
+	.header__el {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.header__el {
+		display: none;
+	}
+}

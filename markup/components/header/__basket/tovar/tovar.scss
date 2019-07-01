@@ -1,0 +1,14 @@
+.tovar {
+	position: absolute;
+	width: 222px;
+	top: 50px;
+	right: -65px;
+	&::before {
+		position: absolute;
+		content: '';
+		border: 13px solid transparent;
+		border-bottom: 20px solid #fff;
+		right: 63px;
+		top: -33px;
+	}
+}

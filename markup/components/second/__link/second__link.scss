@@ -1,0 +1,33 @@
+.second__link {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 65px;
+	color: #FFFFFF;
+	width: 327px;
+	height: 65px;
+	background: #53B162;
+	box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 80px;
+	transition: 0.3s;
+	&:hover {
+		background-color: rgba(#53B162, 0.4);
+		color: #53B162;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.second__linkblok {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.second__link {
+		line-height: 40px;
+		height: 40px;
+		width: 100%;
+	}
+}

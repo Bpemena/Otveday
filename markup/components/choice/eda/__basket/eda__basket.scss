@@ -1,0 +1,26 @@
+.eda__basket {
+	position: absolute;
+	width: 62.29px;
+	height: 62.29px;
+	background: #FFFFFF;
+	border: 1px solid #F9F9F9;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	bottom: 16.71px;
+	left: 18px;
+	transition: 0.4s;
+	svg {
+		fill: #53B162;
+		transition: 0.4s;
+	}
+	&:hover {
+		background-color: #53B162;
+		border-color: #53B162;
+		svg {
+			fill: #fff;
+		}
+	}
+}

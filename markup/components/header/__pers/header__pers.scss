@@ -1,0 +1,12 @@
+.header__pers {
+	position: relative;
+	cursor: pointer;
+	svg {
+		fill: #7D7D7D;
+	}
+	&:hover {
+		svg {
+			fill: #009600;
+		}
+	}
+}

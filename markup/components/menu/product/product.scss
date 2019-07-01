@@ -1,0 +1,18 @@
+.product {
+	width: 1541.38px;
+	height: 777.02px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 1599px) {
+	.product {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}

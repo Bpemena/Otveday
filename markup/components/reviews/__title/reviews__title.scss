@@ -1,0 +1,13 @@
+.reviews__title {
+	font-family: 'Raleway';
+ 	font-style: normal;
+ 	font-weight: bold;
+ 	font-size: 36px;
+ 	line-height: 45px;
+ 	color: #424242;
+}
+@media only screen and (max-width: 1023px) {
+	.reviews__title {
+		font-size: 30px;
+	}
+}

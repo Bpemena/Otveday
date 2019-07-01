@@ -1,0 +1,14 @@
+.second__line {
+	display: flex;
+	align-items: center;
+	margin-top: 57px;
+	margin-bottom: 57px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.second__line {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		justify-content: center;
+	}
+}

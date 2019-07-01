@@ -1,0 +1,19 @@
+.header__logo {
+	width: 202px;
+	height: 78px;
+	margin-right: 85px;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 1919px) {
+	.header__logo {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 1365px) {
+	.header__logo {
+
+	}
+}

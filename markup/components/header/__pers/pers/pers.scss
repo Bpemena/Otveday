@@ -1,0 +1,23 @@
+.pers {
+	position: absolute;
+	width: 349px;
+	background-color: #ffffff;
+	right: -66px;
+	top: 50px;
+	z-index: 10;
+	cursor: default;
+	border-radius: 18px;
+	&::before {
+		position: absolute;
+		content: '';
+		border: 13px solid transparent;
+		border-bottom: 20px solid #fff;
+		right: 15px;
+		top: -33px;
+	}
+}
+@media only screen and (max-width: 1919px) {
+	.pers {
+		right: -20px;
+	}
+}

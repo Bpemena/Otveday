@@ -1,0 +1,15 @@
+.showmore__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 53px;
+	height: 53px;
+	margin-left: 16px;
+	background: linear-gradient(313.96deg, #0E540E -93.24%, rgba(0, 150, 0, 0.26) 88.42%), #53B162;
+	box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 80px;
+	svg {
+		transition: 0.5s;
+		fill: white;
+	}
+}

@@ -1,0 +1,32 @@
+.dobavka {
+	z-index: 20;
+	position: absolute;
+	width: 62.29px;
+	height: 62.29px;
+	bottom: 45.4px;
+	left: 376.13px;
+	background: #FFFFFF;
+	border: 1px solid #F9F9F9;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 65px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+	border: none;
+	&:hover {
+		width: 229px;
+		background: #53B162;
+		.dobavka__svg {
+			svg {
+				fill: #FFFFFF;
+			}
+		}
+	}
+
+}
+@media only screen and (max-width: 767px) {
+	.dobavka {
+		left: 10px;
+	}
+}

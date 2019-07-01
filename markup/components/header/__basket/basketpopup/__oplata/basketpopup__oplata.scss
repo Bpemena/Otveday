@@ -1,0 +1,22 @@
+.basketpopup__oplata {
+	display: block;
+	width: 100%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 65px;
+	color: #FFFFFF;
+	background-color: #53B162;
+	text-align: center;
+	box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 80px;
+	margin-top: 18px;
+	margin-bottom: 14px;
+	transition: 0.5s;
+	text-decoration: none;
+	&:hover {
+		color: #53B162;
+		background-color: rgba(#53B162, 0.3);
+	}
+}

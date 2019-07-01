@@ -1,0 +1,18 @@
+.addresses__link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #646464;
+	opacity: 0.5;
+	transition: 0.3s;
+	text-decoration: none;
+	&:hover {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 23px;
+		color: #646464;
+		opacity: 1;
+	}
+}

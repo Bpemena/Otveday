@@ -1,0 +1,10 @@
+.topbg {
+	height: 1066px;
+	background-color: red;
+	background-image: url('%=static=%content/header-bg.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}

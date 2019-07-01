@@ -1,0 +1,14 @@
+.information__line {
+	display: flex;
+	width: 100%;
+}
+@media only screen and (max-width: 1365px) {
+	.information__line {
+		justify-content: space-between;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.information__line {
+		flex-wrap: wrap;
+	}
+}

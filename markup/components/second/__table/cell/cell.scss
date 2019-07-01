@@ -1,0 +1,9 @@
+.cell {
+	width: 244px;
+}
+@media only screen and (max-width: 1023px) {
+	.cell {
+		width: 100%;
+		display: flex;
+	}
+}

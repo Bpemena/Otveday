@@ -1,0 +1,30 @@
+.nav__phone {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #7D7D7D;
+	text-decoration: none;
+	margin-left: 62px;
+}
+@media only screen and (max-width: 1919px) {
+	.nav__phone {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 1365px) {
+	.nav__phone {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.nav__phone {
+		display: inline;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.nav__phone {
+		display: none;
+	}
+}

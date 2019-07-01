@@ -1,0 +1,21 @@
+.sub__link {
+	width: 234px;
+	height: 49px;
+	display: inline-block;
+	background-color: #398A46;
+	border-radius: 4px;
+	text-decoration: none;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 49px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 18px;
+	transition: 0.5s;
+	&:hover {
+		color: #398A46;
+		background-color: rgba(#398A46,0.4);
+	}
+}
