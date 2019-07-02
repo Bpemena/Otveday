@@ -6,7 +6,8 @@
 }
 .header .container:first-child {
 	position: fixed;
-	z-index: 200;
+	width: 100%;
+	z-index: 500;
 }
 .header .container:last-child {
 	padding-top: 152px+27px+78px;

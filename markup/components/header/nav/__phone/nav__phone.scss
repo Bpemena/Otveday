@@ -7,6 +7,10 @@
 	color: #7D7D7D;
 	text-decoration: none;
 	margin-left: 62px;
+	transition: 0.4s;
+	&:hover {
+		color: #009600;
+	}
 }
 @media only screen and (max-width: 1919px) {
 	.nav__phone {

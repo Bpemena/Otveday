@@ -11,16 +11,112 @@ html, body {
 .wrapper {
 	max-width: 1920px;
 	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
 }
 
 .container {
 	padding-left: 188px;
 	padding-right: 190px;
 }
+.bg1 {
+	right: 140px;
+	top: 302px;
+	position: absolute;
+}
+.bg2 {
+	right: -135px;
+	top: 27px;
+	position: absolute;
+}
+.bg3 {
+	right: 669px;
+	top: 159px;
+	position: absolute;
+}
+.bg4 {
+	right: 66px;
+	top: 736px;
+	position: absolute;
+}
+.bg5 {
+	right: 168.08px;
+	top: 769px;
+	position: absolute;
+}
+.bg6 {
+	left: -83px;
+	top: 1945px;
+	position: absolute;
+	z-index: 400;
+}
+.bg7 {
+	left: -200px;
+	top: 3058px;
+	position: absolute;
+}
+.bg8 {
+	right: -228px;
+	top: 3910px;
+	position: absolute;
+}
+.bg9 {
+	left: -365px;
+	top: 4195px;
+	position: absolute;
+}
 @media only screen and (max-width: 1919px) {
 	.container {
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+	.bg7,.bg6 {
+		display: none;
+	}
+	.bg9 {
+		top: 3896px;
+	}
+}
+@media only screen and (max-width: 1649px) {
+	.bg1 {
+		right: 50px;
+	}
+	.bg2 {
+		right: -230px;
+	}
+	.bg3 {
+		right: 540px;
+		top: 85px;
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.bg8 {
+		top: 4200px;
+	}
+	.bg9 {
+		top: 4040px;
+	}
+}
+@media only screen and (max-width: 1556px) {
+	.bg8,.bg9 {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1439px) {
+	.bg1 {
+		right: -125px;
+	}
+	.bg2,
+	.bg3 {
+		display: none;
+	}
+	.bg4 {
+		right: -80px;
+	}
+}
+@media only screen and (max-width: 1258px) {
+	.bg {
+		display: none;
 	}
 }
 @media only screen and (max-width: 1023px) {

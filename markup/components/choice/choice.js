@@ -5,4 +5,8 @@
       spaceBetween: 50,
       freeMode: true,
       freeModeMomentum: true,
+      navigation: {
+      	nextEl: '.swiper-button-next',
+	  	prevEl: '.swiper-button-prev',
+	  },
     });

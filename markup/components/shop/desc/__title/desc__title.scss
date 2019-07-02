@@ -5,3 +5,8 @@
 	line-height: 30px;
 	color: #398A46;
 }
+@media only screen and (max-width: 1023px) {
+	.desc__title {
+		padding-bottom: 10px;
+	}
+}

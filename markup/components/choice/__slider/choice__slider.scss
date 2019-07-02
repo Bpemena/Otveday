@@ -1,8 +1,12 @@
 .choice__slider {
 	width: 100%;
 	height: auto;
+	padding-left: 188px;
+	position: relative;
+	overflow: hidden;
 }
 .choice__wrapper {
+	z-index: 100;
 	display: flex;
 	align-items: center;
 }
@@ -11,4 +15,45 @@
 	height: 406.33px;
 	display: flex;
 	align-items: center;
+}
+.choice__shadow {
+	z-index: 200;
+	position: absolute;
+	height: 100%;
+	width: 277px;
+	right: -55px;
+	background: linear-gradient(270deg, #FFFFFF 25.2%, rgba(255, 255, 255, 0) 100%);
+}
+.choice__next,
+.choice__prev {
+	display: none;
+}
+@media only screen and (max-width: 1919px) {
+	.choice__slider {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.choice__slider {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.choice__shadow {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.choice__next,
+	.choice__prev {
+		display: block;
+		height: 60px;
+		top: 0;
+		width: 50%;
+		margin-top: 0;
+		position: relative;
+		outline: none;		
+	}
+	.choice__buttons {
+		display: flex;
+	}
 }

@@ -1,3 +1,18 @@
 .networks {
 	margin-top: 46.92px;
 }
+@media only screen and (max-width: 1023px) {
+	.networks {
+		margin-top: 0;
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.networks {
+		margin-top: 20px;
+		width: 100%;
+		display: block;
+	}
+}

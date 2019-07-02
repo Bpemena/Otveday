@@ -7,13 +7,19 @@
 	border-radius: 80px;
 	padding-left: 35px;
 	outline: none;
-	&::placeholder {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 21px;
 	color: #ABABAB;
+	&::placeholder {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		color: #ABABAB;
 	}
 }
 @media only screen and (max-width: 1023px) {
